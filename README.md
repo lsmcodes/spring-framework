@@ -1,5 +1,22 @@
 # DIO - Trilha Spring Framework
-www.dio.me
+<div style="display:inline-block">
+        <picture  title="Java">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/openjdk/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/openjdk/FFFFFF" />
+        </picture>
+        <picture  title="Apache Maven">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/apachemaven/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/apachemaven/FFFFFF" />
+        </picture>
+        <picture  title="Spring Boot">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/springboot/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/springboot/FFFFFF" />
+        </picture>
+        <picture  title="MySQL">
+                <source height="40" width="40" media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/mysql/000000">
+                <img height="40" width="40" src="https://cdn.simpleicons.org/mysql/FFFFFF" />
+        </picture>
+</div>
 
 ## Autor dos Exercícios e Repositório Original
 - [Gleyson Sampaio](https://github.com/glysns)

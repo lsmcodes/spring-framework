@@ -19,13 +19,9 @@
 `Spring Initializr` é uma ferramenta online que permite a geração da estrutura de projetos Spring Boot. Na página do Spring Initializr, tudo o que é preciso fazer é preencher as informações requeridas, adicionar dependências (se desejar), gerar o projeto, extrair os arquivos .zip e por fim, começar a desenvolver a aplicação. As informações devem ser preenchidas da seguinte forma:
 
 - `Group`: coordenadas do projeto, geralmente se trata do domínio da organização a qual pertence o projeto de trás para frente;
-
 - `Artifact`: coordenadas do projeto, deve ser o nome do projeto;
-
 - `Name`: nome de display do projeto, bem como o nome da aplicação Spring Boot;
-
 - `Description`: descrição do projeto;
-
 - `Package name`: pacote raiz da aplicação;
 
 ## Estrutura Gerada
