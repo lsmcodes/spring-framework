@@ -3,6 +3,7 @@ Ambas as anotações `@Bean` e `@Component` são utilizadas para a criação de 
 
 ## Bean
 A anotação `@Bean` é utilizada para indicar que um método retorna um único bean que será gerenciado pelo container. Tipicamente, métodos anotados com @Bean são parte de classes de configuração (anotadas com `@Configuration`), o que não impede que eles sejam parte de outras classes.
+
 ```java
 @Configuration
 public class GsonConfig {
@@ -17,7 +18,8 @@ public class GsonConfig {
 ```
 
 ## Component
-Já a anotação `@Component` (assim como `@Repository`, `@Controller` e `@Service`) é utilizada para idicar que uma classe é um componente. Componentes são detectados automaticamente e gerenciados pelo container, ou seja, também são beans.
+Já a anotação `@Component` (assim como `@Repository`, `@Controller` e `@Service`) é utilizada para indicar que uma classe é um componente. Componentes são detectados automaticamente e gerenciados pelo container, ou seja, também são beans.
+
 ```java
 @Component
 public class ConversorJson {

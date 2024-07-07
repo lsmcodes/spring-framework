@@ -1,5 +1,22 @@
 # DIO - Trilha Spring Framework
-www.dio.me
+<div style="display:inline-block">
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Java-black?style=for-the-badge&logo=OpenJDK&logoColor=white">
+                <img src="https://img.shields.io/badge/Java-white?style=for-the-badge&logo=OpenJDK&logoColor=black" />
+        </picture>
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Maven-black?style=for-the-badge&logo=ApacheMaven&logoColor=white">
+                <img src="https://img.shields.io/badge/Maven-white?style=for-the-badge&logo=ApacheMaven&logoColor=black" />
+        </picture>
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Spring_Boot-black?style=for-the-badge&logo=SpringBoot&logoColor=white">
+                <img src="https://img.shields.io/badge/Spring_Boot-white?style=for-the-badge&logo=SpringBoot&logoColor=black" />
+        </picture>
+        <picture>
+                <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=MySQL&logoColor=white">
+                <img src="https://img.shields.io/badge/MySQL-white?style=for-the-badge&logo=MySQL&logoColor=black" />
+        </picture>
+</div>
 
 ## Autor dos Exercícios e Repositório Original
 - [Gleyson Sampaio](https://github.com/glysns)
@@ -21,31 +38,11 @@ Este repositório contém exercícios que demonstram a utilização do Spring Fr
 - JPA Repository
 
 ## Módulos
-A arquitetura do Spring Framework consiste em funcionalidades organizadas em quase 20 `módulos`. Esses modulos são agrupados em Core Container, Data Access/Integration, Web, AOP (Aspect Oriented Programming), Instrumentation, e Test, como demonstrado no diagrama a seguir.
-```mermaid
-block-beta
-    columns 4
-    block:group1:2
-        columns 4
-        label1["Data Access/Integration"]:4 JDBC ORM OXM JMS Transactions:4
-        end
-    block:group2:2
-        columns 4
-        label2["Web"]:4 WebSocket Servlet Web Portlet
-        end
-        
-    AOP Aspects Instrumentation Messaging
-    
-    block:group3:4
-        columns 4
-        label3["Core Container"]:4 Beans Core Context SpEL
-        end
-        
-    Tests:4
-    style label1 fill:none, stroke:none
-    style label2 fill:none, stroke:none
-    style label3 fill:none, stroke:none
-```
+A arquitetura do Spring Framework consiste em funcionalidades organizadas em quase 20 `módulos`. Esses módulos são agrupados em Core Container, Data Access/Integration, Web, AOP (Aspect Oriented Programming), Instrumentation, e Test, como demonstrado no diagrama a seguir.
+
+<p align="center">
+        <img src="assets/images/spring-framework-runtime.png">
+</p>
 
 ## Inversão de Controle (IoC)
 `Inversão de controle` é o princípio de transferir o controle de objetos ou porções de um programa para um framework ou container. No Spring Framework, esse princípio é implementado por meio da interface `ApplicationContext` e dos `beans`.
@@ -59,12 +56,14 @@ block-beta
 
 ### Sem Inversão de Controle
 Sem inversão de controle, os objetos são gerenciados manualmente:
+
 ```java
 Calculadora calculadora = new Calculadora();
 ```
 
 ### Com Inversão de Controle
 Com inversão de controle, os objetos são gerenciados pelo container, logo, o operador `new` não é utilizado:
+
 ```java
 @Autowired
 Calculadora calculadora;

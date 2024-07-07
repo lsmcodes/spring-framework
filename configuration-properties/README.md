@@ -1,5 +1,6 @@
 # Configuration Properties
 A anotação `@ConfigurationProperties` é uma anotação para configuração externalizada. Anota declarações de classes ou métodos (anotados com @Bean) para vincular ou validar um grupo de configurações externalizadas, ao contrário de `@Value` que acessa uma propriedade por vez. A seguir é possível observar um grupo de propriedades que compartilham o mesmo prefixo `usuario`.
+
 ```properties
 usuario.nome=Lorena Medeiros
 usuario.email=exemplo@gmail.com
